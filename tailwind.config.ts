@@ -23,7 +23,7 @@ export default <Config> {
                     '0%': {opacity: '0', transForm: 'translateY(-20px)'},
                     '50%': {opacity: '0', transForm: 'translateY(-10px)'},
                     '100%': {opacity: '1', transForm: 'translateY(0)'}
-                }
+                },
             }
         },
     },

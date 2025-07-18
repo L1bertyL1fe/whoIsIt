@@ -1,11 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
-    'nuxt-typed-router',
-    'nuxt-typed-router'
-  ]
+    'nuxt-icon',
+  ],
+  typescript: {
+    strict: true,
+    typeCheck: true
+  },
+  runtimeConfig: {
+    public: {}
+  }
 })
